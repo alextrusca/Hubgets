@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+  }
+/*----- TITLE ----*/
+.title img {
+    width: 120px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/*----- HEADER -----*/
+.header {
+    background-color: #0ea5dd;
+    color: white;
+    text-align: center;
+    font-family: Raleway;
+    padding: 80px;
+    p{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    h2 {
+        font-weight: bold;
+    }
+}
+
+/*---MY-CONTAINER ---- WITH SIDEBAR AND CONTENT*/
+.my-container {
+    background-color: #f9f9f9;
+    .imagine img {
+        width: 80px;
+        height: auto;
+        position: absolute;
+        margin-top:-50px;
+        left: 30%;
+    }
+    form {
+        background-color: white;
+        border-bottom: 1px solid #dfdfdf;
+        border-radius: 3px;
+        padding-left: 40px;
+        margin-bottom: 200px;
+        label {
+            padding-top: 20px;
+            font-size: 14px;
+        }
+        .my-button {
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        form {
+            padding-right: 40px;
+            margin-bottom: 20px;
+        }
+      }
+    .my-content {
+        padding-top: 10px;
+    }
+    @media screen and (max-width: 768px) {
+        .my-content {
+            padding: 0px !important;
+        }
+      }
+    .content img {
+        width: 50px;
+        height: auto;
+    }
+ }
+
+ /*  ----  FOOTER  ----*/
+.footer {
+    background-color: #0873a0;
+    color: white;
+    .container {
+        padding-top: 20px;
+    }
+    img{
+        width: 80px;
+    }
+    ul{
+        list-style-type: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+    h6 {
+        font-weight: bold;
+        padding-top: 15px;
+    }
+}
